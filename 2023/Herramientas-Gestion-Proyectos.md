@@ -1,4 +1,3 @@
-
 # Herramientas para la Gestión de Proyectos y Gestión de La configuración
 
 ## Artefactos de la gestión de Proyectos
@@ -16,8 +15,7 @@ También es responsabilidad de los miembros del equipo llevar la contabilidad de
 En *Kanban* por ejemplo el backlog solo consiste en tareas que se priorizan, no obstante se pueden tener etiquetas dependiendo del ámbito.
 
 En *Scrum* una de las métricas más importantes es el *Burndown Chart* o gráfico de velocidad,
-que indica la cantidad de puntos de historia que es capaz de realizar un equipo
-*Scrum* por *Sprint*, y cómo esa velocidad cambia a lo largo del tiempo.
+que indica la cantidad de puntos de historia que es capaz de realizar un equipo por *Sprint*, y cómo esa velocidad cambia a lo largo del tiempo.
 
 ![Burndown](img/burndown.png)
 
@@ -43,7 +41,6 @@ Ejemplos de configuración de software:
 * Pruebas
 [De Wikipedia](https://es.wikipedia.org/wiki/Gestión_de_la_configuración)
 
-
 ## Herramientas sugeridas
 
 * Github
@@ -68,13 +65,10 @@ Ejemplos de configuración de software:
 * Funcionalidades que incluyen
 * SaaS VS On-premise
 
-**Ejercicio por grupos**
+#### Ejercicio por grupos
 
 > Pensar en los artefactos necesarios para la gestión del proyecto. Este ejercicio
 está incluido en la primera entrega. [RFI I](RFI/RFI-I.md). Es necesario documenta la decisión en un [ADR](ADR/README.md) o similar.
-
 > Decidid las herramientas necesarias para la gestión del proyecto. Este ejercicio
 está incluido en la primera entrega. [RFI I](RFI/RFI-I.md). Es necesario documenta la decisión en un [ADR](ADR/README.md) o similar.
-
->**Cada equipo deberá demostrar que ha utilizado la herramienta elegida a lo largo
-del desarrollo del proyecto.**
+>Cada equipo deberá demostrar que ha utilizado la herramienta elegida a lo largodel desarrollo del proyecto.
