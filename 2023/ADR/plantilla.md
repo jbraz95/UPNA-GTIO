@@ -53,7 +53,6 @@ Historia técnica: [descripción | ticket/issue/historia-de-usuario URL] <!-- op
 * Negativo, porque [argumento c]
 * …
 
-
 ### [opción 3]
 
 [ejemplo | descripción | puntero a más información [URL | doc anexo al ADR ] | …] <!-- opcional -->
