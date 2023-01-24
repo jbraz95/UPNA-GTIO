@@ -10,6 +10,35 @@ organización, aunque a menudo esto no es posible, por la distancia, por los dis
 de cada departamento, equipo, o porque simplemente algún mando intermedio no quiere
 dejar su forma de trabajar por la que se propone para toda la organización.
 
+- [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](#modelos-de-dirección-modelos-de-gestión-y-roles-en-las-organizaciones)
+  - [Estructura de las Organizaciones](#estructura-de-las-organizaciones)
+    - [Estructuras organizacionales: verticales y horizontales](#estructuras-organizacionales-verticales-y-horizontales)
+      - [Estructura vertical (jerárquica)](#estructura-vertical-jerárquica)
+      - [Estructura horizontal (plana)](#estructura-horizontal-plana)
+    - [Estructuras organizacionales: 4 tipos](#estructuras-organizacionales-4-tipos)
+      - [Funcional](#funcional)
+      - [En divisiones](#en-divisiones)
+      - [Matricial](#matricial)
+      - [Híbrida](#híbrida)
+  - [Roles tecnológicos en las organizaciones](#roles-tecnológicos-en-las-organizaciones)
+  - [Objetivos, Tareas y Funciones](#objetivos-tareas-y-funciones)
+    - [Ejercicios cooperativos](#ejercicios-cooperativos)
+  - [Modelos de dirección](#modelos-de-dirección)
+    - [Ejercicios cooperativos](#ejercicios-cooperativos-1)
+  - [Gestión de Proyectos](#gestión-de-proyectos)
+    - [Modelos de Gestión](#modelos-de-gestión)
+      - [Tradicional](#tradicional)
+      - [Waterfall/Cascada](#waterfallcascada)
+      - [Agile](#agile)
+        - [Scrum](#scrum)
+        - [Kanban](#kanban)
+          - [Principios](#principios)
+        - [Lean](#lean)
+  - [Buenas Prácticas. CMMI, ITIL](#buenas-prácticas-cmmi-itil)
+    - [CMMI (Capability Maturity Model Integration)](#cmmi-capability-maturity-model-integration)
+    - [ITIL](#itil)
+    - [Buenas prácticas en Software](#buenas-prácticas-en-software)
+
 ## Estructura de las Organizaciones
 
 La estructura de las Organizaciones es la manera en la que se organiza el sistema

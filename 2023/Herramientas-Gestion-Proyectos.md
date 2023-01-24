@@ -1,5 +1,12 @@
 # Herramientas para la Gestión de Proyectos y Gestión de La configuración
 
+- [Herramientas para la Gestión de Proyectos y Gestión de La configuración](#herramientas-para-la-gestión-de-proyectos-y-gestión-de-la-configuración)
+  - [Artefactos de la gestión de Proyectos](#artefactos-de-la-gestión-de-proyectos)
+  - [Gestión de la configuración y Control de Versiones](#gestión-de-la-configuración-y-control-de-versiones)
+  - [Herramientas sugeridas](#herramientas-sugeridas)
+    - [Qué tener en cuenta a la hora de elegir](#qué-tener-en-cuenta-a-la-hora-de-elegir)
+      - [Ejercicio por grupos](#ejercicio-por-grupos)
+
 ## Artefactos de la gestión de Proyectos
 
 Una vez decidido el sistema para gestionar un proyecto, es necesario conocer los
@@ -33,37 +40,37 @@ Estos dos elementos, el control de cambios y control de versiones de todos los e
 
 Ejemplos de configuración de software:
 
-* Ejecutables/ artefactos
-* Código Fuente
-* Modelos de datos
-* Modelos de procesos
-* Especificaciones de requisitos
-* Pruebas
+- Ejecutables/ artefactos
+- Código Fuente
+- Modelos de datos
+- Modelos de procesos
+- Especificaciones de requisitos
+- Pruebas
 [De Wikipedia](https://es.wikipedia.org/wiki/Gestión_de_la_configuración)
 
 ## Herramientas sugeridas
 
-* Github
-* Gitlab
-* Microsoft teams
-* Jira
-* Trello
-* Gsuite
-* Excel o similares
-* ClickUp
-* Asana
-* OpenProject
-* ProjectLibre
-* Zentao
+- Github
+- Gitlab
+- Microsoft teams
+- Jira
+- Trello
+- Gsuite
+- Excel o similares
+- ClickUp
+- Asana
+- OpenProject
+- ProjectLibre
+- Zentao
 
 ### Qué tener en cuenta a la hora de elegir
 
-* Precio
-* Disponibilidad
-* Esfuerzo de instalación/registro
-* Curva de aprendizaje
-* Funcionalidades que incluyen
-* SaaS VS On-premise
+- Precio
+- Disponibilidad
+- Esfuerzo de instalación/registro
+- Curva de aprendizaje
+- Funcionalidades que incluyen
+- SaaS VS On-premise
 
 #### Ejercicio por grupos
 
