@@ -18,7 +18,7 @@
 * 1 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
 * 1 *Trabajo Libre: Creación API para Cats & Dogs*
 * 8 Charla Invitado I.
-* 8 Charla Invitado II. (Probablemente segunda charla en abril y aqui trabajo libre)
+* 8 *Trabajo Libre: Creación API para Cats & Dogs*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
 * 22 __Evaluación [RFI II](RFI/RFI-II.md)__  
@@ -34,7 +34,7 @@
 * 12 VACACIONES
 * 19 Despliegue de un servicio en AWS usando ECS.
 * 19 *Trabajo Libre: Despliegue Cats & Dogs en AWS*
-* 26 A decidir (probablemente charla invitado)
+* 26 Charla Invitado II.
 * 26 *Trabajo Libre: Despliegue Cats & Dogs en AWS con Terraform*
 
 ## Mayo (Provisional)
