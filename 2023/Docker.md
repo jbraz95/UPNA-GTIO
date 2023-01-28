@@ -35,8 +35,8 @@ _Based on Aitor Mendivil's work._
     - [CHALLENGE 6](#challenge-6)
   - [Docker Compose](#docker-compose)
     - [CHALLENGE 7](#challenge-7)
-      - [CHALLENGE 8](#challenge-8)
-      - [CHALLENGE 9](#challenge-9)
+    - [CHALLENGE 8](#challenge-8)
+    - [CHALLENGE 9](#challenge-9)
   - [Additional Contents](#additional-contents)
     - [Glossary of Terms](#glossary-of-terms)
     - [Dockerfile commands summary](#dockerfile-commands-summary)
@@ -525,11 +525,11 @@ $ docker compose version
 Docker Compose version v2.15.1
 ```
 
-#### CHALLENGE 8
+### CHALLENGE 8
 
 Get familiar with Docker and Docker Compose by doing the [Getting started Guide](https://docs.docker.com/compose/gettingstarted/)
 
-#### CHALLENGE 9
+### CHALLENGE 9
 
 Create your own Dockerized App (Can be a very simple http API) that depends on a database (MySQL, PostgreSQL, the one you like) if you don't have time you can use something that already exists, for example, Wordpress, then, create the Docker Compose that deploys both containers. You have succesfully created a microservice oriented architecture!
 
