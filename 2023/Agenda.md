@@ -11,14 +11,14 @@
 * 15 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 15 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 22 __Evaluación [RFI I](RFI/RFI-I.md)__
-* 22 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Cats & Dogs*
+* 22 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
 
 ## Marzo (Provisional)
 
 * 1 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
-* 1 *Trabajo Libre: Creación API para Cats & Dogs*
+* 1 *Trabajo Libre: Creación API para Proyecto Votación*
 * 8 Charla Invitado I.
-* 8 *Trabajo Libre: Creación API para Cats & Dogs*
+* 8 *Trabajo Libre: Creación API para Proyecto Votación*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
 * 22 __Evaluación [RFI II](RFI/RFI-II.md)__  
@@ -29,19 +29,19 @@
 ## Abril (Provisional)
 
 * 5 IaaC - Terraform. DevOps. Automatización.
-* 5 *Trabajo Libre: Despliegue Cats & Dogs en AWS*
+* 5 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 12 VACACIONES
 * 12 VACACIONES
 * 19 Despliegue de un servicio en AWS usando ECS.
-* 19 *Trabajo Libre: Despliegue Cats & Dogs en AWS*
+* 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 26 Charla Invitado II.
-* 26 *Trabajo Libre: Despliegue Cats & Dogs en AWS con Terraform*
+* 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
 
 ## Mayo (Provisional)
 
 * 3 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
 * 3 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 10 Pruebas de carga. APM y métricas cats & dogs.
+* 10 Pruebas de carga. APM y métricas Proyecto Votación.
 * 10 *Trabajo Libre*. Rendimiento.
 * 17 Examen evaluación ordinaria (si el examen no se adelanta, se hará una revisión de la asignatura)
 * 17 *Trabajo Libre*. Rendimiento.

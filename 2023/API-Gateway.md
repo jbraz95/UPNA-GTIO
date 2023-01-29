@@ -2,13 +2,16 @@
 
 Un API Gateway, como su nombre indica consiste en la puerta de entrada de nuestro sistema de microservicios.
 
-Los microservicios exponen APIs para que un cliente se comunique con ellos, o para comunicarse entre sí. Pero, ¿qué ocurre si un servicio no se tiene que poder comunicar con otro por razones de seguridad? o ¿cómo hago is quiero ofrecer distintos productos (APIs) a distintos clientes?
+## ¿Qué es un API Gateway?
+
+Los microservicios exponen APIs para que un cliente se comunique con ellos, o para comunicarse entre sí. Pero, ¿qué ocurre si un servicio no se tiene que poder comunicar con otro por razones de seguridad? o ¿cómo hago si quiero ofrecer distintos productos (APIs) a distintos clientes?. ¿Y si necesito un mismo punto de entrada para varios servicios diferentes?
 
 Dentro de los sistemas SaaS basados en servicios necesitamos una forma de ofrecer:
+
 * Autorización
 * Autenticación
 * Granularidad en el acceso a los servicios, o a los endpoints (rutas)
-* Multy-tenancy (Distintos clientes pueden consumir los servicios, existiendo una separación lógica de los datos. En este caso si existe persistencia siempre será necesario desarrollo también a nivel de servicio)
+* Multi-tenancy (Distintos clientes pueden consumir los servicios, existiendo una separación lógica de los datos. En este caso si existe persistencia siempre será necesario desarrollo también a nivel de servicio)
 * Auditoria/Logs
 * Control del tráfico
 * Modificación de las peticiones
@@ -18,10 +21,9 @@ Dentro de los sistemas SaaS basados en servicios necesitamos una forma de ofrece
 
 ![url](./img/gateway.png)
 
-**Ejercicio**
+### Ejercicio
 
-> Proxy VS proxy inverso.
-
+> ¿Que es un proxy? ¿Cuales son las diferencias entre un proxy y proxy inverso.
 > Pensar en formas de crear un sistema multitenant con un apigateway.
 
 ## Soluciones en el mercado
@@ -35,14 +37,14 @@ Dentro de los sistemas SaaS basados en servicios necesitamos una forma de ofrece
 
 > En nuestro proyecto final vamos a trabajar con Kong como API Gateway, y es necesario para el [RFI II](RFI/RFI-II.md) por lo que cuanto antes os sintáis cómodos con Kong mejor.
 
-**Ejercicio**
+### Ejercicio
 
 > Realizar el 5 min Quickstart usando Docker en vez de instalar Kong en la máquina.
-https://docs.konghq.com/gateway-oss/2.3.x/getting-started/quickstart/
+<https://docs.konghq.com/gateway-oss/2.3.x/getting-started/quickstart/>
 (La parte de gRPC no es necesaria)
-
-> Pensar y Probar los plugins necesarios para conseguir AAA (Una vez decididos, documentarlo).
+> Pensar y Probar los plugins necesarios para conseguir AAA (autenticación, autorización y auditoria)
+> Una vez decididos, documentadlo.
 
 ### Referencias
 
-https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway
+<https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway>
