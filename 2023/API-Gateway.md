@@ -40,7 +40,7 @@ Dentro de los sistemas SaaS basados en servicios necesitamos una forma de ofrece
 ### Ejercicio
 
 > Realizar el 5 min Quickstart usando Docker en vez de instalar Kong en la máquina.
-<https://docs.konghq.com/gateway-oss/2.3.x/getting-started/quickstart/>
+<https://docs.konghq.com/gateway/3.1.x/get-started/>
 (La parte de gRPC no es necesaria)
 > Pensar y Probar los plugins necesarios para conseguir AAA (autenticación, autorización y auditoria)
 > Una vez decididos, documentadlo.
