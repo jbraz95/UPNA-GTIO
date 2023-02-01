@@ -4,20 +4,20 @@
 
 ## Febrero
 
-* 1 [Introducción y Organización de la Asignatura](Introduccion.md)
-* 1 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
-* 8 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
-* 8 [ADR](ADR/README.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
-* 15 [Monolítico Vs Microservicios. Docker I](Docker.md)
-* 15 [Monolítico Vs Microservicios. Docker II](Docker.md)
-* 22 __Evaluación [RFI I](RFI/RFI-I.md)__
-* 22 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
+* 1 - Sesión pospuesta
+* 1 - Sesión pospuesta
+* 8 [Introducción y Organización de la Asignatura](Introduccion.md)
+* 8 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
+* 15 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
+* 15 [ADR](ADR/README.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
+* 22 [Monolítico Vs Microservicios. Docker I](Docker.md)
+* 22 [Monolítico Vs Microservicios. Docker II](Docker.md)
 
 ## Marzo (Provisional)
 
-* 1 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
-* 1 *Trabajo Libre: Creación API para Proyecto Votación*
-* 8 Charla Invitado I.
+* 1 __Evaluación [RFI I](RFI/RFI-I.md)__
+* 1 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
+* 8 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
 * 8 *Trabajo Libre: Creación API para Proyecto Votación*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
@@ -34,7 +34,7 @@
 * 12 VACACIONES
 * 19 Despliegue de un servicio en AWS usando ECS.
 * 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
-* 26 Charla Invitado II.
+* 26 Charla Invitado
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
 
 ## Mayo (Provisional)
