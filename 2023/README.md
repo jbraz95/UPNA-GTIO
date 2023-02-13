@@ -6,7 +6,7 @@ _Apuntes basados en el trabajo de Aitor Mendivil. <https://bit.ly/3alGkku>_
 
 ## Semestre de primavera 2022-2023
 
-Comparte este curso con el enlace corto: <https://shorturl.at/ejuW3>
+Comparte este curso con el enlace corto: <https://shorturl.at/ampwT>
 
 [Contenido del Curso](Agenda.md)
 
@@ -14,7 +14,7 @@ Comparte este curso con el enlace corto: <https://shorturl.at/ejuW3>
 
 [Calendario Académico](PDF/Calendario_WEB_22_23.pdf)
 
-Comparte este curso con el enlace corto: <https://shorturl.at/ejuW3>
+Comparte este curso con el enlace corto: <https://shorturl.at/ampwT>
 
 ### Otros Recursos
 
