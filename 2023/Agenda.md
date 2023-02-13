@@ -9,7 +9,7 @@
 * 8 [Introducción y Organización de la Asignatura](Introduccion.md)
 * 8 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
 * 15 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
-* 15 [ADR](ADR/README.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
+* 15 [ADR](ADR/Architecture-Decision-Record.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
 * 22 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 22 [Monolítico Vs Microservicios. Docker II](Docker.md)
 
@@ -21,10 +21,10 @@
 * 8 *Trabajo Libre: Creación API para Proyecto Votación*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
-* 22 __Evaluación [RFI II](RFI/RFI-II.md)__  
-* 22 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). CPD VS Cloud
-* 29 Introducción a AWS. Arquitecturas de servicios en la nube.
-* 29 *Trabajo Libre: Flujo CI automático*
+* 22 Introducción a AWS. Arquitecturas de servicios en la nube.
+* 22 *Trabajo Libre: Flujo CI automático y Creación API*
+* 29 __Evaluación [RFI II](RFI/RFI-II.md)__  
+* 29 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). CPD VS Cloud
 
 ## Abril (Provisional)
 
@@ -39,8 +39,8 @@
 
 ## Mayo (Provisional)
 
-* 3 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
 * 3 __Evaluación [RFI III](RFI/RFI-III.md)__
+* 3 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
 * 10 Pruebas de carga. APM y métricas Proyecto Votación.
 * 10 *Trabajo Libre*. Rendimiento.
 * 17 Examen evaluación ordinaria (si el examen no se adelanta, se hará una revisión de la asignatura)
@@ -52,5 +52,5 @@
 
 ## Junio (Así fue el año pasado, desconocido por ahora)
 
-* 6 Examen evaluación ordinaria --> Adelantado al 18 de Mayo
+* 6 Examen evaluación ordinaria --> Adelantado al 17 de Mayo
 * 16 Examen evaluación extraordinaria

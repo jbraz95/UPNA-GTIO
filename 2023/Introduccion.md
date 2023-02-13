@@ -4,7 +4,7 @@
 
 ## Horario
 
-Miércoles de 17:00 a 21:00. Aula ???
+Miércoles de 17:00 a 21:00. Aula: Laboratorio ISM (Sótano edificio Las Encinas)
 
 ## Evaluación
 
@@ -16,21 +16,20 @@ Miércoles de 17:00 a 21:00. Aula ???
 
 _Javier Bermejo Razquin._
 
-E-mail: `????@unavarra.es`
+E-mail: `javier.bermejo@unavarra.es`
 
 [Página personal](????)
 
 ### Tutorías
 
 * En cualquier momento por correo interno de MiAulario o e-mail.
+* Lunes y jueves de 17:00 a 19:00 en mi despacho: Sótano del edificio Las Encinas (al bajar las escaleras a la derecha). (Bajo cita previa)
 * Bajo cita previa (a través de MiAulario, e-mail o en clase)
 
 ## Metodología
 
-* Las clases se repartirán a lo largo del curso en clases teórico prácticas junto con
-trabajo libre.
-* La planificación de la asignatura está pensada para realizarse con el mínimo trabajo
-fuera del aula posible.
+* Las clases se repartirán a lo largo del curso en clases teórico prácticas junto con trabajo libre.
+* La planificación de la asignatura está pensada para realizarse con el mínimo trabajo fuera del aula posible.
 
 ## Organización
 
@@ -40,7 +39,7 @@ fuera del aula posible.
 
 ## Objetivo del Curso
 
-* Ganar la venta de la app Cats & Dogs (que incluya un plan de sistemas y de viabilidad a largo plazo) con fecha límite 25 de mayo a la empresa representada por el profesor.
+* Ganar la venta de la app Votación (que incluya un plan de sistemas y de viabilidad a largo plazo) con fecha límite 25 de mayo a la empresa representada por el profesor.
 * El responsable será el jefe del equipo en ese momento.
 
 ### Detalles aclaratorios
