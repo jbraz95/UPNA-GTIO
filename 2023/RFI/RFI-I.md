@@ -49,8 +49,8 @@ será bienvenido y considerado para una mayor puntuación en la evaluación
 
 ## Entrega
 
-- La fecha límite para la entrega del RFI será el: *22 de febrero de 2023*
-- Se deberá realizar una presentación el mismo día *23 de febrero de 2023* en el
+- La fecha límite para la entrega del RFI será el: *1 de marzo de 2023*
+- Se deberá realizar una presentación el mismo día *1 de marzo de 2023* en el
 horario habitual de la asignatura
 - Se puede incluir toda la documentación que el proveedor considere necesaria
 - La tarea de MiAulario será previamente anunciada mediante anuncio en miAulario o e-mail.
