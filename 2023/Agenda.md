@@ -21,10 +21,10 @@
 * 8 *Trabajo Libre: Creación API para Proyecto Votación*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
-* 22 Introducción a AWS. Arquitecturas de servicios en la nube.
+* 22 [Cloud Computing](Cloud.md). CPD VS Cloud
 * 22 *Trabajo Libre: Flujo CI automático y Creación API*
-* 29 __Evaluación [RFI II](RFI/RFI-II.md)__  
-* 29 __Explicación [RFI III](RFI/RFI-III.md)__  [Cloud Computing](Cloud.md). CPD VS Cloud
+* 29 __Evaluación [RFI II](RFI/RFI-II.md)__ __Explicación [RFI III](RFI/RFI-III.md)__  
+* 29 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
 
 ## Abril (Provisional)
 
