@@ -28,7 +28,7 @@
 
 ## Abril (Provisional)
 
-* 5 IaaC - Terraform. DevOps. Automatización.
+* 5 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 5 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 12 VACACIONES
 * 12 VACACIONES
