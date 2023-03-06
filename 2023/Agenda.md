@@ -32,7 +32,7 @@
 * 5 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 12 VACACIONES
 * 12 VACACIONES
-* 19 Despliegue de un servicio en AWS usando ECS.
+* 19 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf)
 * 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 26 Charla Invitado
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
