@@ -41,8 +41,8 @@ La empresa proveedora deberá dar respuesta justificada a los siguientes puntos:
 
 ## Entrega
 
-* La fecha límite para la entrega del RFI será el: *22 de marzo de 2023*
-* Se deberá realizar una presentación el mismo día *22 de marzo de 2023* en el horario habitual de la asignatura
+* La fecha límite para la entrega del RFI será el: *29 de marzo de 2023*
+* Se deberá realizar una presentación el mismo día *29 de marzo de 2023* en el horario habitual de la asignatura
 * La entrega será realizada mediante ficheros `.pdf`, o ficheros `.zip` con el código o documentación necesarias. No se admiten enlaces a recursos externos al `.zip`, salvo en el caso que se quiera enviar una tag de un repositorio git público. En todo caso esto se hará para demostrar el uso de varias funcionalidades del repositorio de git público (issues, milestones, etc.) y no para compartir el código del proyecto (este deberá estar si o si en el `.zip`).
 * Se puede incluir todo el código y documentación que el proveedor considere necesaria
 * La tarea de MiAulario será previamente anunciada mediante anuncio en miAulario o e-mail.
