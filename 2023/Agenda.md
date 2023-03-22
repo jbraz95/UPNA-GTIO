@@ -13,7 +13,7 @@
 * 22 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 22 [Monolítico Vs Microservicios. Docker II](Docker.md)
 
-## Marzo (Provisional)
+## Marzo
 
 * 1 __Evaluación [RFI I](RFI/RFI-I.md)__
 * 1 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
@@ -21,12 +21,12 @@
 * 8 *Trabajo Libre: Creación API para Proyecto Votación*
 * 15 [Integración Continua](Mejora-Continua.md)
 * 15 *Trabajo Libre: Flujo CI automático*
-* 22 [Cloud Computing](Cloud.md). CPD VS Cloud
+* 22 [Cloud Computing](Cloud.md). [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
 * 22 *Trabajo Libre: Flujo CI automático y Creación API*
 * 29 __Evaluación [RFI II](RFI/RFI-II.md)__ __Explicación [RFI III](RFI/RFI-III.md)__  
 * 29 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
 
-## Abril (Provisional)
+## Abril
 
 * 5 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 5 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
