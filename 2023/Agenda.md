@@ -37,18 +37,17 @@
 * 26 Charla Invitado
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
 
-## Mayo (Provisional)
+## Mayo
 
 * 3 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 3 __Explicación [RFP](RFP/RFP.md)__. Rendimiento. KPIs. Agentes beats, Elastic, Kibana
+* 3 __Explicación [RFP](RFP/RFP.md)__. [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md)
 * 10 Pruebas de carga. APM y métricas Proyecto Votación.
 * 10 *Trabajo Libre*. Rendimiento.
-* 17 Examen evaluación ordinaria (si el examen no se adelanta, se hará una revisión de la asignatura)
+* 17  Revisión de la asignatura
 * 17 *Trabajo Libre*. Rendimiento.
 * 24 __Evaluación [RFP](RFP/RFP.md)__
 * 24 __Evaluación cont. [RFP](RFP/RFP.md)__
-* 31 ????????????? (Probablemente nada)
-* 31 ????????????? (Probablemente nada)
+* 31 Examen evaluación ordinaria
 
 ## Junio (Así fue el año pasado, desconocido por ahora)
 
