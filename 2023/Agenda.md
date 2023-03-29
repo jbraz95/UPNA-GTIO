@@ -23,16 +23,16 @@
 * 15 *Trabajo Libre: Flujo CI automático*
 * 22 [Cloud Computing](Cloud.md). [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
 * 22 *Trabajo Libre: Flujo CI automático y Creación API*
-* 29 __Evaluación [RFI II](RFI/RFI-II.md)__ __Explicación [RFI III](RFI/RFI-III.md)__  
-* 29 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
+* 29 __Evaluación [RFI II](RFI/RFI-II.md)__
+* 29 __Explicación [RFI III](RFI/RFI-III.md)__
 
 ## Abril
 
-* 5 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
-* 5 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
+* 5 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
+* 5 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf) *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 12 VACACIONES
 * 12 VACACIONES
-* 19 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf)
+* 19  [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 26 Charla Invitado
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
