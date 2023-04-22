@@ -34,7 +34,7 @@
 * 12 VACACIONES
 * 19  [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
-* 26 Charla Invitado
+* 26 Charla Invitado - MLOps, Josu Gorostegui.
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS con Terraform*
 
 ## Mayo
