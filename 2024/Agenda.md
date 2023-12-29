@@ -4,10 +4,11 @@
 
 ## Enero
 
-* 31 [Introducción y Organización de la Asignatura](Introduccion.md)
-* 31 [Modelos de Dirección, Modelos de Gestión y Roles en las Organizaciones](Organizaciones.md)
+* 31 [Introducción y Organización de la Asignatura](2024/Introduccion.md)
+* 31 [Modelos de Dirección y Roles en las Organizaciones](2024/teoria/Organizaciones.md)
+* 31 [Gestión de Proyectos y Buenas Prácticas](2024/teoria/gestion.md)
 
-## Febrero
+## Febrero (pendiente de cambio)
 
 * 7 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
 * 7 [ADR](ADR/Architecture-Decision-Record.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
@@ -18,7 +19,7 @@
 * 28 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
 * 28 *Trabajo Libre: Creación API para Proyecto Votación*
 
-## Marzo
+## Marzo (pendiente de cambio)
 
 * 6 [Integración Continua](Mejora-Continua.md)
 * 6 *Trabajo Libre: Flujo CI automático*
@@ -29,18 +30,18 @@
 * 27 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
 * 27 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf) *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
-## Abril
+## Abril (pendiente de cambio)
 
 * 3 VACACIONES
 * 3 VACACIONES
 * 10 VACACIONES
 * 10 VACACIONES
-* 17 Clase pospuesta
-* 17 Clase pospuesta
+* 17 Vacaciones o Profesor invitado
+* 17 Vacaciones o Clase práctica
 * 24  [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 24 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
-## Mayo
+## Mayo (pendiente de cambio)
 
 * 1 VACACIONES
 * 1 VACACIONES
@@ -52,6 +53,6 @@
 * 22  Revisión de la asignatura
 * 29 Examen evaluación ordinaria (17h)
 
-## Junio
+## Junio (pendiente de cambio)
 
 * 12 Examen evaluación extraordinaria (17h)
