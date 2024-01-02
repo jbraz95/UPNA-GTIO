@@ -5,7 +5,7 @@
 ## Enero
 
 * 31 [Introducción y Organización de la Asignatura](Introduccion.md) --- [*diapositivas*](Introduccion.pdf)
-* 31 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md)
+* 31 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md) --- [*diapositivas*](teoria/Organizaciones.pdf)
 * 31 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md)
 
 ## Febrero (pendiente de cambio)
