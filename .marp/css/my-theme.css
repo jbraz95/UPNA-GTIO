@@ -1,0 +1,23 @@
+/* @theme my-theme */
+
+@import 'default';
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d3e6fd;
+    text-align: center;
+}
+
+ul {
+    font-size: 0.9em;
+}
+
+section.small-ul ul {
+    font-size: 0.8em;
+}
+
+section.small-ul {
+    background-color: #d3e6fd00;
+    color: #d3e6fd;
+}

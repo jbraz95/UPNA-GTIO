@@ -1,4 +1,15 @@
+---
+marp: true
+class: invert
+footer: Modelos de Dirección y Roles en las Organizaciones
+paginate: true
+theme: my-theme
+---
+
 # Modelos de Gestión de Proyectos y Buenas Prácticas
+
+---
+<!-- _header: Modelos de Gestión de Proyectos y Buenas Prácticas -->
 
 - [Modelos de Gestión de Proyectos y Buenas Prácticas](#modelos-de-gestión-de-proyectos-y-buenas-prácticas)
   - [Modelos de Gestión](#modelos-de-gestión)
@@ -13,6 +24,8 @@
     - [CMMI (Capability Maturity Model Integration)](#cmmi-capability-maturity-model-integration)
     - [ITIL](#itil)
     - [Buenas prácticas en Software](#buenas-prácticas-en-software)
+
+---
 
 Es necesario decidir cuál es el modelo de gestión de proyectos para cada equipo/proyecto. **Las herramientas tecnológicas corporativas deberán permitir cierta flexibilidad para adaptarse a distintos tipos de proyectos.**
 

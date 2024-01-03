@@ -3,16 +3,8 @@ marp: true
 class: invert
 footer: Modelos de Dirección y Roles en las Organizaciones
 paginate: true
-theme: default
+theme: my-theme
 ---
-<style>
-header{
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #d3e6fd;
-  text-align: center;
-}
-</style>
 
 # Modelos de Dirección y Roles en las Organizaciones
 
@@ -32,11 +24,6 @@ De la misma forma, para poder aplicar correctamente la tecnología en una organi
 Preferiblemente, las tecnologías informáticas, deberían ser transversales a toda la organización, aunque a menudo esto no es posible. Por ejemplo la distancia, los distintos requerimientos de cada departamento, equipo, o porque simplemente algún mando intermedio no quiere dejar su forma de trabajar por la que se propone para toda la organización. Si dejamos que ciertas áreas no se adapten a las nuevas tecnologías, esto puede generar problemas de comunicación, de productividad, de eficiencia, etc. Pero también es verdad que es mejor que una parte de la organización se adapte a las nuevas tecnologías que ninguna, e ir poco a poco adaptando al resto.
 
 ---
-<style scoped>
-ul {
-  font-size: 0.9em;
-}
-</style>
 
 - [Modelos de Dirección y Roles en las Organizaciones](#modelos-de-dirección-y-roles-en-las-organizaciones)
   - [Estructura de las Organizaciones](#estructura-de-las-organizaciones)
@@ -260,11 +247,7 @@ de forma que se han creado puestos específicos para estos ámbitos en lo más a
 
 ---
 <!-- _header: Roles tecnológicos en las organizaciones-->
-<style scoped>
-ul {
-  font-size: 0.8em;
-}
-</style>
+<!-- _class: small-ul -->
 
 Estos dos puestos se pueden confundir mucho entre ellos y es más facil entenderlos si se comparan:
 
@@ -285,11 +268,6 @@ _Información obtenida de [ilimit](https://www.ilimit.com/blog/cto-vs-cio/)_
 
 ---
 <!-- _header: Roles tecnológicos en las organizaciones-->
-<style scoped>
-ul {
-  font-size: 0.9em;
-}
-</style>
 
 También se han creado puestos relacionados con la ciberseguridad.
 
@@ -303,11 +281,7 @@ También se han creado puestos relacionados con la ciberseguridad.
 
 ---
 <!-- _header: Roles tecnológicos en las organizaciones-->
-<style scoped>
-ul {
-  font-size: 0.8em;
-}
-</style>
+<!-- _class: small-ul -->
 
 - CSO (Chief Security Officer) es el responsable de la seguridad de la organización. Al CSO a veces se le denomina responsable de seguridad corporativa. Podemos pensar que el CISO y el CSO son el mismo rol y que desempeñan las mismas funciones. En organizaciones pequeñas es frecuente que coincidan ambas responsabilidades en una misma persona. Pero realmente no es así. El rol del CISO suele estar más centrado en aspectos de seguridad de la información, mientras que al CSO se le requiere:
   - Tener una visión de negocio que comprenda los riesgos que afronta la organización y cómo tratarlos.
