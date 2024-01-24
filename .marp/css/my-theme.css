@@ -21,3 +21,10 @@ section.small-ul {
     background-color: #d3e6fd00;
     color: #d3e6fd;
 }
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}
