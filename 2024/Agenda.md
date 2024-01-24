@@ -6,12 +6,14 @@
 
 * 31 [Introducción y Organización de la Asignatura](Introduccion.md) --- [*diapositivas*](pdf/Introduccion.pdf)
 * 31 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md) --- [*diapositivas*](pdf/Organizaciones.pdf)
-* 31 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md) -- [*diapositivas*](pdf/gestion.pdf)
+* 31 [The fundamental forces of scale](https://longform.asmartbear.com/scale/)
 
 ## Febrero (pendiente de cambio)
 
-* 7 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](Herramientas-Gestion-Proyectos.md)
-* 7 [ADR](ADR/Architecture-Decision-Record.md). __Explicación [RFI I](RFI/RFI-I.md)__. *Trabajo Libre: Herramientas de Gestión*
+* 7 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md) -- [*diapositivas*](pdf/gestion.pdf)
+* 7 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](teoria/Herramientas-Gestion-Proyectos.md) --- [*diapositivas*](pdf/Herramientas-Gestion-Proyectos.pdf)
+* 7 [ADR](ADR/Architecture-Decision-Record.md) -- [*diapositivas*](pdf/Architecture-Decision-Record.pdf)
+* 7 __Explicación [RFI I](RFI/RFI-I.md)__.
 * 14 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 14 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 21 __Evaluación [RFI I](RFI/RFI-I.md)__
