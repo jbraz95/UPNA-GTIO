@@ -18,7 +18,8 @@
 * 14 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 21 __Evaluación [RFI I](RFI/RFI-I.md)__
 * 21 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
-* 28 [APIs (REST)](APIs.md) [API Gateway](API-Gateway.md)
+* 28 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
+* 28 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
 * 28 *Trabajo Libre: Creación API para Proyecto Votación*
 
 ## Marzo (pendiente de cambio)
