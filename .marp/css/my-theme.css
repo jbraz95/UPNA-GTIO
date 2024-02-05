@@ -18,7 +18,20 @@ section.small-ul ul {
 }
 
 section.small-ul {
-    background-color: #d3e6fd00;
+    background-color: #101117;
+    color: #d3e6fd;
+}
+
+section.smaller-ul ul {
+    font-size: 0.8em;
+}
+
+section.smaller-ul ul ul ul {
+    display: none;
+}
+
+section.smaller-ul {
+    background-color: #101117;
     color: #d3e6fd;
 }
 
