@@ -49,8 +49,6 @@ Dentro de los sistemas SaaS basados en servicios necesitamos una forma de ofrece
 ---
 <!-- _header: API Gateway -->
 
-### Ejercicio
-
 > ¿Que es un proxy? ¿Cuales son las diferencias entre un proxy y proxy inverso.
 > La diferencia entre un proxy y un proxy inverso es que el proxy suele ser para el cliente, y el proxy inverso para el servidor. El proxy viene a ser más una medida de seguridad, mientras que el proxy inverso es más para la escalabilidad y la disponibilidad.
 > Pensar en formas de crear un sistema multitenant con un apigateway.
