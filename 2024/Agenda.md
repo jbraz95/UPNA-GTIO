@@ -17,21 +17,25 @@
 * 14 [Monolítico Vs Microservicios. Docker I](Docker.md)
 * 14 [Monolítico Vs Microservicios. Docker II](Docker.md)
 * 21 __Evaluación [RFI I](RFI/RFI-I.md)__
-* 21 __Explicación [RFI II](RFI/RFI-II.md)__. *Trabajo Libre: Dockerizar Proyecto Votación*
-* 28 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
+* 21 __Explicación [RFI II](RFI/RFI-II.md)__.
+* 21 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
+* 21 *Trabajo Libre: Dockerizar Proyecto Votación & Creación API para Proyecto Votación**
 * 28 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
-* 28 *Trabajo Libre: Creación API para Proyecto Votación*
+* 28 [Integración Continua](Mejora-Continua.md)
+* 28 *Trabajo Libre: Apigateway + Flujo CI automático*
 
 ## Marzo (pendiente de cambio)
 
-* 6 [Integración Continua](Mejora-Continua.md)
-* 6 *Trabajo Libre: Flujo CI automático*
-* 13 [Cloud Computing](Cloud.md). [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
-* 13 *Trabajo Libre: Flujo CI automático y Creación API*
+* 6 [Cloud Computing](Cloud.md).
+* 6 [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
+* 6 *Trabajo Libre: Flujo CI automático y Creación API*
+* 13 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) + Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
+* 13 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf)
+* 13 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 20 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 20 __Explicación [RFI III](RFI/RFI-III.md)__
-* 27 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
-* 27 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf) *Trabajo Libre: Despliegue Proyecto Votación en AWS*
+* 27 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
+* 27 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
 ## Abril (pendiente de cambio)
 
@@ -41,19 +45,20 @@
 * 10 VACACIONES
 * 17 Vacaciones o Profesor invitado
 * 17 Vacaciones o Clase práctica
-* 24  [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
-* 24 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
+* 24 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md)
+* 24 Resolución de dudas + Trabajo Libre en RFI III
 
 ## Mayo (pendiente de cambio)
 
 * 1 VACACIONES
 * 1 VACACIONES
 * 8 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 8 __Explicación [RFP](RFP/RFP.md)__. [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md)
-* 15 Breve explicación de que son las pruebas de carga. Revisión de [metricas](metricas.md)
+* 8 __Explicación [RFP](RFP/RFP.md)__.
+* 8 *Trabajo Libre*. en RFP
+* 15 Pruebas de carga. Revisión de [metricas](metricas.md)
 * 15 *Trabajo Libre*. Métricas/Logs.
 * 22 __Evaluación [RFP](RFP/RFP.md)__
-* 22  Revisión de la asignatura
+* 22 Revisión de la asignatura + Preparación de examen
 * 29 Examen evaluación ordinaria (17h)
 
 ## Junio (pendiente de cambio)
