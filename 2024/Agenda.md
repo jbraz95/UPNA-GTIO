@@ -21,7 +21,7 @@
 * 21 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
 * 21 *Trabajo Libre: Dockerizar Proyecto Votación & Creación API para Proyecto Votación**
 * 28 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
-* 28 [Integración Continua](Mejora-Continua.md)
+* 28 [Integración Continua](Mejora-Continua.md) -- [*diapositivas*](pdf/Mejora-Continua.pdf)
 * 28 *Trabajo Libre: Apigateway + Flujo CI automático*
 
 ## Marzo (pendiente de cambio)
