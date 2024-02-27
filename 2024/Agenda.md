@@ -26,7 +26,7 @@
 
 ## Marzo (pendiente de cambio)
 
-* 6 [Cloud Computing](Cloud.md).
+* 6 [Cloud Computing](Cloud.md). -- [diapositivas](pdf/Cloud.pdf)
 * 6 [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
 * 6 *Trabajo Libre: Flujo CI automático y Creación API*
 * 13 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) + Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
