@@ -8,7 +8,7 @@
 * 31 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md) --- [*diapositivas*](pdf/Organizaciones.pdf)
 * 31 [The fundamental forces of scale](https://longform.asmartbear.com/scale/)
 
-## Febrero (pendiente de cambio)
+## Febrero
 
 * 7 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md) -- [*diapositivas*](pdf/gestion.pdf)
 * 7 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](teoria/Herramientas-Gestion-Proyectos.md) --- [*diapositivas*](pdf/Herramientas-Gestion-Proyectos.pdf)
@@ -26,10 +26,11 @@
 
 ## Marzo (pendiente de cambio)
 
-* 6 [Cloud Computing](Cloud.md). -- [diapositivas](pdf/Cloud.pdf)
+* 6 [Cloud Computing](teoria/Cloud.md). -- [diapositivas](pdf/Cloud.pdf)
 * 6 [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
 * 6 *Trabajo Libre: Flujo CI automático y Creación API*
-* 13 [Arquitecturas de servicios en la nube.](Arquitecturas-nube.md) + Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
+* 13 [Arquitecturas de servicios en la nube.](teoria/Arquitecturas-nube.md) - [diapositivas](pdf/Arquitecturas-nube.pdf)
+* 13 Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
 * 13 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf)
 * 13 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 20 __Evaluación [RFI II](RFI/RFI-II.md)__
