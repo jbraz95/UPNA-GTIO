@@ -31,10 +31,12 @@
 * 6 *Trabajo Libre: Flujo CI automático y Creación API*
 * 13 [Arquitecturas de servicios en la nube.](teoria/Arquitecturas-nube.md) - [diapositivas](pdf/Arquitecturas-nube.pdf)
 * 13 Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
-* 13 [Despliegue de un servicio en AWS usando ECS.](PDF/GTIO%20-%20Orquestación%20de%20Contenedores.pdf)
-* 13 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
+* 13 [Orquestación de contenedores](PDF/Orquestación%20de%20Contenedores.pdf)
+* 13 *Trabajo Libre: Trabajo en API, Flujo CI*
 * 20 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 20 __Explicación [RFI III](RFI/RFI-III.md)__
+* 20 [Despliegue de un servicio en AWS usando ECS.](PDF/ECS%20-%20Orquestación%20de%20Contenedores.pdf)
+* 20 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 27 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 27 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
