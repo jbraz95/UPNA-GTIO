@@ -59,8 +59,9 @@
 * 8 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 2: explicación sobre arquitecturas y diferentes herramientas
 * 8 __Explicación [RFP](RFP/RFP.md)__.
 * 8 *Trabajo Libre*. en RFP
-* 15 Pruebas de carga. Revisión de [metricas](metricas.md)
-* 15 *Trabajo Libre*. Métricas/Logs.
+* 15 Entornos y costes.
+* 15 Resolución de dudas del RFP
+* 15 *Trabajo Libre*. en RFP
 * 22 __Evaluación [RFP](RFP/RFP.md)__
 * 22 Revisión de la asignatura + Preparación de examen
 * 29 Examen evaluación ordinaria (17h)
