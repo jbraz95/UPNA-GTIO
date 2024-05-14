@@ -24,7 +24,7 @@
 * 28 [Integración Continua](Mejora-Continua.md) -- [*diapositivas*](pdf/Mejora-Continua.pdf)
 * 28 *Trabajo Libre: Apigateway + Flujo CI automático*
 
-## Marzo (pendiente de cambio)
+## Marzo
 
 * 6 [Cloud Computing](teoria/Cloud.md). -- [diapositivas](pdf/Cloud.pdf)
 * 6 [CPD VS Cloud](PDF/Cloud%20Computing.pptx.pdf)
@@ -40,7 +40,7 @@
 * 27 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 27 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
-## Abril (pendiente de cambio)
+## Abril
 
 * 3 VACACIONES
 * 3 VACACIONES
@@ -48,7 +48,7 @@
 * 10 VACACIONES
 * 17 Vacaciones o Profesor invitado
 * 17 Vacaciones o Clase práctica
-* 24 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md)
+* 24 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
 * 24 Resolución de dudas + Trabajo Libre en RFI III
 
 ## Mayo (pendiente de cambio)
@@ -56,6 +56,7 @@
 * 1 VACACIONES
 * 1 VACACIONES
 * 8 __Evaluación [RFI III](RFI/RFI-III.md)__
+* 8 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 2: explicación sobre arquitecturas y diferentes herramientas
 * 8 __Explicación [RFP](RFP/RFP.md)__.
 * 8 *Trabajo Libre*. en RFP
 * 15 Pruebas de carga. Revisión de [metricas](metricas.md)
