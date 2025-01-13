@@ -19,8 +19,8 @@
 * 12 Si hay tiempo libre, trabajo libre en el RFI I
 * 19 __Evaluación [RFI I](RFI/RFI-I.md)__
 * 19 __Explicación [RFI II](RFI/RFI-II.md)__.
-* 19 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
 * 19 *Trabajo Libre: Dockerizar Proyecto Votación & Creación API para Proyecto Votación**
+* 26 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
 * 26 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
 * 26 [Integración Continua](Mejora-Continua.md) -- [*diapositivas*](pdf/Mejora-Continua.pdf)
 * 26 *Trabajo Libre: Apigateway + Flujo CI automático*
