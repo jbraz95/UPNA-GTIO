@@ -14,8 +14,8 @@
 * 5 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](teoria/Herramientas-Gestion-Proyectos.md) --- [*diapositivas*](pdf/Herramientas-Gestion-Proyectos.pdf)
 * 5 [ADR](ADR/Architecture-Decision-Record.md) -- [*diapositivas*](pdf/Architecture-Decision-Record.pdf)
 * 5 __Explicación [RFI I](RFI/RFI-I.md)__.
-* 12 [Monolítico Vs Microservicios. Docker I](Docker.md)
-* 12 [Monolítico Vs Microservicios. Docker II](Docker.md)
+* 12 [Monolítico Vs Microservicios. Docker I](teoria/Docker.md)
+* 12 [Monolítico Vs Microservicios. Docker II](teoria/Docker.md)
 * 12 Si hay tiempo libre, trabajo libre en el RFI I
 * 19 __Evaluación [RFI I](RFI/RFI-I.md)__
 * 19 __Explicación [RFI II](RFI/RFI-II.md)__.
@@ -43,14 +43,14 @@
 
 ## Abril (pendiente de cambio)
 
-* 3 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
+* 3 Charla/Discusión sobre el uso de herramientas de IA y la implicación en nuestro sector
 * 3 Resolución de dudas + Trabajo Libre en RFI III
-* 10 Resolución de dudas + Trabajo Libre en RFI III
+* 10 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
 * 10 Resolución de dudas + Trabajo Libre en RFI III
 * 16 VACACIONES
 * 16 VACACIONES
-* 24 VACACIONES
-* 24 VACACIONES
+* 23 VACACIONES
+* 23 VACACIONES
 * 30 VACACIONES
 * 30 VACACIONES
 
