@@ -32,7 +32,7 @@
 * 5 *Trabajo Libre: Flujo CI automático y Creación API*
 * 12 [Arquitecturas de servicios en la nube.](teoria/Arquitecturas-nube.md) - [diapositivas](pdf/Arquitecturas-nube.pdf)
 * 12 Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
-* 12 [Orquestación de contenedores](PDF/Orquestación%20de%20Contenedores.pdf)
+* 12 [Orquestación de contenedores](pdf/Orquestación%20de%20Contenedores.pdf)
 * 12 *Trabajo Libre: Trabajo en API, Flujo CI*
 * 19 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 19 __Explicación [RFI III](RFI/RFI-III.md)__
