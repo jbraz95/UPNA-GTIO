@@ -43,7 +43,7 @@
 ## Abril (pendiente de cambio)
 
 * 3 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
-* 3 Charla/Discusión sobre el uso de herramientas de IA y la implicación en nuestro sector
+* 3 [Herramientas IA y la programación](teoria/Herramientas-IA.md) - [diapositivas](pdf/Herramientas-IA.pdf)
 * 3 Resolución de dudas + Trabajo Libre en RFI III
 * 10 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
 * 10 Resolución de dudas + Trabajo Libre en RFI III
