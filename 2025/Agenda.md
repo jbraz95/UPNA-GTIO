@@ -8,7 +8,7 @@
 * 29 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md) --- [*diapositivas*](pdf/Organizaciones.pdf)
 * 29 [The fundamental forces of scale](https://longform.asmartbear.com/scale/)
 
-## Febrero (pendiente de cambio)
+## Febrero
 
 * 5 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md) -- [*diapositivas*](pdf/gestion.pdf)
 * 5 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](teoria/Herramientas-Gestion-Proyectos.md) --- [*diapositivas*](pdf/Herramientas-Gestion-Proyectos.pdf)
@@ -22,27 +22,27 @@
 * 19 *Trabajo Libre: Dockerizar Proyecto Votación & Creación API para Proyecto Votación**
 * 26 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
 * 26 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
-* 26 [Integración Continua](Mejora-Continua.md) -- [*diapositivas*](pdf/Mejora-Continua.pdf)
+* 26 [Integración Continua](teoria/Mejora-Continua.md) -- [*diapositivas*](pdf/Mejora-Continua.pdf)
 * 26 *Trabajo Libre: Apigateway + Flujo CI automático*
 
-## Marzo (pendiente de cambio)
+## Marzo
 
 * 5 [Cloud Computing](teoria/Cloud.md). -- [diapositivas](pdf/Cloud.pdf)
 * 5 [CPD VS Cloud](pdf/Cloud%20Computing.pptx.pdf)
 * 5 *Trabajo Libre: Flujo CI automático y Creación API*
 * 12 [Arquitecturas de servicios en la nube.](teoria/Arquitecturas-nube.md) - [diapositivas](pdf/Arquitecturas-nube.pdf)
 * 12 Introducción a AWS. (revisión en directo de como se usa el panel de AWS)
-* 12 [Orquestación de contenedores](pdf/Orquestación%20de%20Contenedores.pdf)
 * 12 *Trabajo Libre: Trabajo en API, Flujo CI*
 * 19 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 19 __Explicación [RFI III](RFI/RFI-III.md)__
-* 19 [Despliegue de un servicio en AWS usando ECS.](PDF/ECS%20-%20Orquestación%20de%20Contenedores.pdf)
-* 19 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
-* 26 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
+* 26 *Trabajo Libre en RFI III*
+* 26 [Orquestación de contenedores](pdf/Orquestación%20de%20Contenedores.pdf)
+* 26 [Despliegue de un servicio en AWS usando ECS.](pdf/ECS.pdf)
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
 ## Abril (pendiente de cambio)
 
+* 3 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 3 Charla/Discusión sobre el uso de herramientas de IA y la implicación en nuestro sector
 * 3 Resolución de dudas + Trabajo Libre en RFI III
 * 10 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
