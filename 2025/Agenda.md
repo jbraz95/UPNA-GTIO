@@ -40,12 +40,12 @@
 * 26 [Despliegue de un servicio en AWS usando ECS.](pdf/ECS.pdf)
 * 26 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 
-## Abril (pendiente de cambio)
+## Abril
 
 * 3 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
 * 3 [Herramientas IA y la programación](teoria/Herramientas-IA.md) - [diapositivas](pdf/Herramientas-IA.pdf)
 * 3 Resolución de dudas + Trabajo Libre en RFI III
-* 10 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 1: charla sobre la importancia del dato
+* 10 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](teoria/metricas.md) - Parte 1: charla sobre la importancia del dato
 * 10 Resolución de dudas + Trabajo Libre en RFI III
 * 16 VACACIONES
 * 16 VACACIONES
