@@ -57,11 +57,9 @@
 ## Mayo (pendiente de cambio)
 
 * 7 __Evaluación [RFI III](RFI/RFI-III.md)__
-* 7 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](metricas.md) - Parte 2: explicación sobre arquitecturas y diferentes herramientas
 * 7 __Explicación [RFP](RFP/RFP.md)__.
-* 7 *Trabajo Libre*. en RFP
 * 14 Entornos y costes.
-* 14 Resolución de dudas del RFP
+* 14 Revisión de la asignatura + Preparación de examen
 * 14 *Trabajo Libre*. en RFP
 * 21 __Evaluación [RFP](RFP/RFP.md)__
 * 21 Revisión de la asignatura + Preparación de examen
