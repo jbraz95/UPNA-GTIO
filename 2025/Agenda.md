@@ -58,7 +58,7 @@
 
 * 7 __Evaluación [RFI III](RFI/RFI-III.md)__
 * 7 __Explicación [RFP](RFP/RFP.md)__.
-* 14 Entornos y costes.
+* 14 [Entornos y costes](teoria/Entornos-y-Costes.md) -- [diapositivas](pdf/Entornos-y-Costes.pdf)
 * 14 Revisión de la asignatura + Preparación de examen
 * 14 *Trabajo Libre*. en RFP
 * 21 __Evaluación [RFP](RFP/RFP.md)__
