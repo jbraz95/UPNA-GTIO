@@ -69,7 +69,8 @@ La empresa licitadora deberá dar respuesta justificada a los siguientes puntos:
 | Tema                             | Puntuación |
 | -------------------------------- | ---------: |
 | Sistema funcionando en AWS       |         10 |
-| Infraestructura en Terraform     |         10 |
+| Infraestructura en Terraform     |          5 |
+| GitHub limpio                    |          5 |
 | Revisión de preguntas anteriores |          5 |
 | Sistema de métricas/logs         |          5 |
 | Costes y entornos                |          5 |
