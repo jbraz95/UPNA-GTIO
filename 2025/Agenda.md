@@ -54,7 +54,7 @@
 * 30 VACACIONES
 * 30 VACACIONES
 
-## Mayo (pendiente de cambio)
+## Mayo 
 
 * 7 __Evaluación [RFI III](RFI/RFI-III.md)__
 * 7 __Explicación [RFP](RFP/RFP.md)__.
@@ -63,8 +63,8 @@
 * 14 *Trabajo Libre*. en RFP
 * 21 __Evaluación [RFP](RFP/RFP.md)__
 * 21 Revisión de la asignatura + Preparación de examen
-* 28 Examen evaluación ordinaria (17h) - Aula desconocida
+* 28 Examen evaluación ordinaria (17h) - 316
 
 ## Junio
 
-* 11 Examen evaluación extraordinaria (17h) - Aula desconocida
+* 11 Examen evaluación extraordinaria (17h) - ISM (aula normal de clase)
