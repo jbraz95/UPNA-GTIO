@@ -61,7 +61,7 @@
 * 14 [Entornos y costes](teoria/Entornos-y-Costes.md) -- [diapositivas](pdf/Entornos-y-Costes.pdf)
 * 14 Revisión de la asignatura + Preparación de examen [Examen ejemplo](teoria/Examen-Ejemplo-Evaluacion-Ordinaria.md)
 * 14 *Trabajo Libre*. en RFP
-* 21 __Evaluación [RFP](RFP/RFP.md)__
+* 21 __Evaluación [RFP](RFI/RFP.md)__
 * 21 Revisión de la asignatura + Preparación de examen
 * 28 Examen evaluación ordinaria (17h) - 316
 
