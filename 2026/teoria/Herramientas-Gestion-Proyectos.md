@@ -111,6 +111,57 @@ Ejemplos de configuración de software:
 
 ---
 
+### Focus: Notion como Espacio de Trabajo Unificado
+
+A diferencia de herramientas verticales (solo gestión o solo documentos), Notion actúa como un **hub centralizado** que elimina los silos de información entre equipos técnicos y de producto.
+
+- **Wiki de Ingeniería:** Centraliza guías de estilo, *onboarding* y documentación de infraestructura junto a las tareas, evitando la dispersión del conocimiento.
+- **Gestión de Sprints:** Permite gestionar Épicas, Historias de Usuario y Bugs en la misma plataforma mediante bases de datos vinculadas y vistas personalizables (Tablero, Cronograma, Lista).
+
+---
+
+### Notion: Integraciones y Automatización
+
+Su valor diferencial reside en conectar la ejecución técnica con la documentación de negocio:
+
+- **Sincronización con GitHub:** Vincula *Pull Requests* directamente a tareas de Notion. El estado de la tarea se actualiza automáticamente cuando el PR se fusiona, dando visibilidad a los PMs sin entrar al repositorio.
+- **Sincronización con Jira:** Permite visualizar tickets de Jira dentro de Notion para equipos no técnicos.
+- **Potenciado por IA:** Automatiza la redacción de historias de usuario a partir de especificaciones técnicas o resume reuniones de *dailys*.
+
+---
+
+### Notion: Problema
+
+El principal problema de Notion es el tiempo que se "pierde" en mantener todo en orden.
+
+Si lo usamos como documentación hay que dedicar tiempo a mantenerlo integrado. Y si usamos IA para programar, los cambios tienden a ser tan rápidos que la documentación se queda obsoleta. Se pueden usar servidores MCP para mantener la documentación actualizada, pero requiere tiempo y esfuerzo.
+
+Luego si lo utilizamos como herramienta de gestión de proyectos, hay que dedicar un tiempo a montar los automatismos y flujos de trabajo. No es solo crear tareas como en otras plataformas, es utilizar sus bases de datos y automatizaciones para sacarle el máximo partido.
+
+---
+
+### Plan B: GitHub Projects + Wiki (El Ecosistema Nativo)
+
+Si buscamos reducir la fricción del desarrollador o nuestra empresa no requiere que el conocimiento se comparta con, por ejemplo, financiero, la alternativa es vivir dentro de GitHub.
+
+- **GitHub Projects:** Es la capa de gestión visual sobre el código.
+  - **Automatización Nativa:** Al cerrar una *Issue* mediante un commit, la tarjeta se mueve sola en el tablero Kanban. Sin webhooks ni configuraciones complejas.
+- **Documentación (Wiki vs. Docs/):**
+  - **GitHub Wiki:** Útil para documentación de alto nivel (Onboarding, normas).
+  - **Carpeta `/docs`:** Para documentación técnica viva. Al estar junto al código, evoluciona con él en el mismo *commit* ("Docs-as-code"), evitando la obsolescencia.
+
+### Comparativa: Fricción vs. Visibilidad
+
+- Básicamente se basa en elegir entre:
+  - **Notion:** Mayor visibilidad y colaboración interdepartamental, pero con mayor fricción para desarrolladores.
+  - **GitHub Nativo:** Menor fricción para desarrolladores, pero menos visibilidad para otros departamentos.
+- Además otro punto importante es el coste de mantenimiento y el tamaño del equipo.
+  - En un equipo pequeño no hay necesidad de un sistema complejo y tu herramienta puede ser github projects.
+  - Pero en equipos grandes con varios departamentos y roles, puede ser beneficioso compartir información de forma interdepartamental
+- Pero como siempre, es una decisión que debe tomar cada equipo en función de sus necesidades. Es un tema de gustos y se debe priorizar inicialmente la productividad del equipo y donde se sienta más cómodo.
+
+---
+
 ### Qué tener en cuenta a la hora de elegir
 
 - Precio
