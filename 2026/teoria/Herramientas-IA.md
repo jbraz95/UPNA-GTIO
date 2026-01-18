@@ -33,11 +33,7 @@ En los últimos años, hemos visto un avance significativo en el campo de la int
 
 - **GitHub Copilot**: Un asistente de programación que sugiere líneas de código y funciones completas mientras escribes.
 - **Cursor**: Un IDE de IA que ayuda a los programadores a escribir código más rápido. *Vibe coding*
-
-### Otras herramientas útiles
-
-- **Tabnine**: Un autocompletador de código impulsado por IA.
-- **Kite**: Una herramienta que sugiere fragmentos de código y documentación en tiempo real.
+- **Claude code**: Un asistente de programación desarrollado por Anthropic, conocido por su enfoque en la seguridad y la ética en IA.
 
 ---
 

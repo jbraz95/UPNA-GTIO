@@ -13,10 +13,11 @@
 
 * 4 [Gestión de Proyectos y Buenas Prácticas](teoria/gestion.md) -- [*diapositivas*](pdf/gestion.pdf)
 * 4 [Herramientas para la Gestión de Proyectos y Gestión de la configuración](teoria/Herramientas-Gestion-Proyectos.md) --- [*diapositivas*](pdf/Herramientas-Gestion-Proyectos.pdf)
-* 4 [Monolítico Vs Microservicios. Docker I](teoria/Docker.md)
+* 4 [Herramientas IA y la programación](teoria/Herramientas-IA.md) - [diapositivas](pdf/Herramientas-IA.pdf)
+* 4 [Agentes IA en VS Code](teoria/Agentes-IA.md) - [diapositivas](pdf/Agent_Architecture_VS_Code.pdf)
 * 4 Si hay tiempo libre, trabajo libre en el RFI I
 * 11 [ADR](ADR/Architecture-Decision-Record.md) -- [*diapositivas*](pdf/Architecture-Decision-Record.pdf)
-* 11 [Monolítico Vs Microservicios. Docker II](teoria/Docker.md)
+* 11 [Monolítico Vs Microservicios. Docker](teoria/Docker.md)
 * 11 Si hay tiempo libre, trabajo libre en el RFI I
 * 18 [APIs (REST)](teoria/APIs.md) -- [*diapositivas*](pdf/APIs.pdf)
 * 18 [API Gateway](teoria/API-Gateway.md) -- [*diapositivas*](pdf/API-Gateway.pdf)
@@ -37,7 +38,6 @@
 * 18 [Despliegue de un servicio en AWS usando ECS.](pdf/ECS.pdf)
 * 18 *Trabajo Libre: Despliegue Proyecto Votación en AWS*
 * 25 [IaaC: Terraform y la Automatización.](terraform.md) [Rol de un SRE/DevOps](sre.md)
-* 25 [Herramientas IA y la programación](teoria/Herramientas-IA.md) - [diapositivas](pdf/Herramientas-IA.pdf)
 * 25 Resolución de dudas + Trabajo Libre en RFI II
 
 ## Abril
