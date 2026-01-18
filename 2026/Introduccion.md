@@ -64,16 +64,18 @@ Miércoles de 17:00 a 21:00. Aula: Laboratorio ISM (Sótano edificio Las Encinas
 
 ---
 
+### Uso de IA
+
+* Está permitido el uso de la IA y sus herramientas. No usarlo a día de hoy es absurdo.
+* Esta asignatura va sobre el uso de tecnologías actuales en organizaciones, por lo tanto se valora positivamente el uso de la IA.
+* PERO se tiene que tener un conocimiento muy claro y muy profundo de lo que se está haciendo.
+* Si por el uso de la IA se dice que se va a hacer X, se tiene que hacer y continuar con esa decisión (salvo que se argumente el cambio). No vale poner un listado de buenas prácticas sacadas de la IA y luego no seguirlas.
+* El uso de la IA para generar slop y contenido sin valor es totalmente inutil. Se valorará negativamente.
+
+---
+
 ### Detalles aclaratorios
 
 * Todo lo necesario para realizar el proyecto final se impartirá a lo largo de la asignatura
 * Existirán 2 entregas anteriores que servirán para afianzar los conceptos
 * Estas entregas responderán a RFIs ([Request For Information](https://en.wikipedia.org/wiki/Request_for_information)) que solicitará la empresa representada por el profesor  
-
----
-
-## Ejercicios del día de hoy
-
-> * Establecer los grupos y los jefes de equipo.
-> * Pensar en los procesos que dan valor a un equipo y a un producto tecnológico
-> * Por equipos. Elegid un software conocido y que os guste. Listad las tecnologías y procesos técnicos que creéis que están involucradas en su desarrollo.  
