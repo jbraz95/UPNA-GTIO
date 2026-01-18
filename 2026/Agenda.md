@@ -46,7 +46,8 @@
 * 8 VACACIONES
 * 15 __Evaluación [RFI II](RFI/RFI-II.md)__
 * 15 __Explicación [RFP](RFI/RFP.md)__
-* 22 [Rendimiento y KPIs: Agentes beats, Elastic, Kibana](teoria/metricas.md)
+* 22 [Intro observabilidad](pdf/Observabilidad_y_KPIs_El_Motor_Digital.pdf)
+* 22[Rendimiento y KPIs: Agentes beats, Elastic, Kibana](teoria/metricas.md) -- [diapositivas](pdf/metricas.pdf)
 * 22 Resolución de dudas + Trabajo Libre en RFI II
 * 29 [Entornos y costes](teoria/Entornos-y-Costes.md) -- [diapositivas](pdf/Entornos-y-Costes.pdf)
 * 29 Revisión de la asignatura + Preparación de examen [Examen ejemplo](teoria/Examen-Ejemplo-Evaluacion-Ordinaria.md)

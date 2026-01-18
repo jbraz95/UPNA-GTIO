@@ -1,88 +1,252 @@
-# Métricas: Rendimiento y KPIs. Agentes beats, Elastic, Kibana
+---
+marp: true
+theme: default
+paginate: true
+header: 'Observabilidad y Analítica de Negocio en la Nube'
+footer: 'Sistemas Distribuidos y Métricas'
+style: |
+  section {
+    font-size: 20px;
+    padding: 40px;
+  }
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  ul {
+    margin-top: 0px;
+  }
+---
 
-- [Métricas: Rendimiento y KPIs. Agentes beats, Elastic, Kibana](#métricas-rendimiento-y-kpis-agentes-beats-elastic-kibana)
-  - [¿Que son las métricas y los KPI's?](#que-son-las-métricas-y-los-kpis)
-  - [Métricas comunes en el software](#métricas-comunes-en-el-software)
-  - [Definición y generación de KPIs](#definición-y-generación-de-kpis)
-  - [Links interesantes sobre KPIs en móviles](#links-interesantes-sobre-kpis-en-móviles)
-  - [Aplicación práctica](#aplicación-práctica)
-    - [Elastic Stack](#elastic-stack)
-    - [Sustitución de Elastic Stack por otras herramientas](#sustitución-de-elastic-stack-por-otras-herramientas)
-    - [Nuestro Stack con CloudWatch](#nuestro-stack-con-cloudwatch)
+# Observabilidad, Métricas y KPIs
 
-## ¿Que son las métricas y los KPI's?
+## De la monitorización básica a la inteligencia de negocio
 
-En el contexto del software, una métrica es una medida cuantitativa utilizada para evaluar la calidad, el rendimiento o el progreso de un sistema o proceso. Para simplificar nos referiremos a métricas cuando indiquen el rendimiento de un sistema en ese momento (cpu, memoria, etc), y a las que midan el progreso de un proceso o la calidad de un producto las llamaremos KPI's
+---
 
-Las métricas son fundamentales para la monitorización y optimización del rendimiento de nuestras aplicaciones. Con estas podremos ver que carga tienen nuestras instancias, si hay cuellos de botella, si hay problemas de memoria, etc. Cuando tenemos una sola máquina eso suele ser más facil de ver, pero cuando tenemos varias tenemos que recurrir a las métricas para poder ver como se comporta el sistema. Generalmente las métricas se recopilan en un sistema de monitorización, como puede ser [Grafana](https://www.grafana.com), [Zabbix](https://www.zabbix.com/), [Nagios](https://www.nagios.org/), [Prometheus](https://prometheus.io/), [Elastic Stack](https://www.elastic.co/elastic-stack), etc. Incluso algunos IaaS como [AWS](https://aws.amazon.com/es/) tienen sistemas de monitorización integrados como [CloudWatch](https://aws.amazon.com/es/cloudwatch/).
+### 1. ¿Qué es la Observabilidad? (Más allá de la Monitorización)
 
-Entonces... ¿Que son los KPI's? Los KPIs son los indicadores clave de rendimiento que se utilizan para medir el éxito de un software o proceso. Son métricas que engloban un conjunto de métricas con el objetivo de medir el rendimiento de un proceso o sistema en relación con los objetivos específicos de la organización. Lo veremos más adelante, pero los podemos entender como una métrica más abstracta y orientada a objetivos.
+En la ingeniería moderna, distinguimos dos conceptos clave que a menudo se confunden:
 
-## Métricas comunes en el software
+* **Monitorización:** Te dice **cuándo** algo está mal basándose en lo que ya sabes que debes buscar (ej. "CPU al 90%"). Es reactiva.
+* **Observabilidad:** Te permite entender **por qué** algo está mal interrogando al sistema, incluso ante problemas que nunca habías visto ("desconocidos desconocidos"). Se basa en explorar patrones no definidos de antemano.
 
-Así que visto que ya existen las KPI's cuando hablemos de métricas nos referiremos a métricas generales que nos permiten evaluar el rendimiento de un sistema o proceso. Algunas métricas importantes en el software son:
+> **La meta:** No solo ver que la web va lenta, sino descubrir que la latencia se debe a una consulta específica a la base de datos de usuarios premium en la región eu-west-1.
 
-- CPU: Utilización, carga, espera, etc.
-- Memoria: Uso, paginación, intercambio, etc.
-- Acceso: Tiempos de respuesta, latencia, etc.
-- Otros: Ancho de banda, errores, etc.
+---
 
-Estas métricas se extraen de los sistemas usando herramientas como metricbeat o OpenTelemetry. Estas herramientas se llaman "herramientas de instrumentación", se instalan en los servidores y recopilan métricas de los sistemas operativos y aplicaciones. Estas métricas se envían a un sistema de monitorización y nos permiten visualizar y analizar las métricas de manera efectiva.
+### 2. Los 4 Pilares de la Telemetría
 
-Para poder aprovechar estas métricas sería interesante añadirles un sistema de trazabilidad, como puede ser [Metricbeat](https://www.elastic.co/es/beats/metricbeat), [Jaeger](https://www.jaegertracing.io/), [Zipkin](https://zipkin.io/), [OpenTracing](https://opentracing.io/), etc. Estos sistemas nos permiten añadir trazabilidad a nuestras aplicaciones y así poder ver como una acción en una aplicación afecta a otra. Por ejemplo, si tenemos una aplicación web que hace una petición a una API, podemos añadir trazabilidad a ambas aplicaciones y ver como afecta la petición a la API y a la aplicación web y de esta manera podemos ver donde hay cuellos de botella y donde podemos mejorar el rendimiento.
+Para lograr observabilidad, necesitamos recolectar cuatro tipos de señales (Telemetría):
+s
+1. **Métricas (Metrics):** Datos numéricos medidos en el tiempo. Son baratas de almacenar y rápidas de consultar.
+    * *Ejemplo:* Uso de RAM, peticiones por segundo, latencia media.
+    * *Nos dicen:* "¿Hay un problema?".
+2. **Registros (Logs):** Eventos discretos e inmutables con marca de tiempo.
+    * *Ejemplo:* "Error 500: Database connection failed".
+    * *Nos dicen:* "¿Por qué ocurrió el problema?".
+3. **Trazas (Traces):** El recorrido de una petición a través de múltiples microservicios.
+    * *Ejemplo:* El usuario hace click -> API Gateway -> Lambda -> DynamoDB.
+    * *Nos dicen:* "¿Dónde está el cuello de botella?".
+4. **Perfiles (Profiles):** Análisis del uso de recursos a nivel de código (qué función consume más CPU). Es el pilar más reciente.
 
-## Definición y generación de KPIs
+---
 
-KPI significa Key Performance Indicator. Los KPIs son los indicadores clave de rendimiento que se utilizan para medir el éxito de un software o proceso. Son un tipo de métrica que se utilizan para medir el rendimiento de un proceso o sistema en relación con los objetivos específicos de la organización. Se utilizan comúnmente en los negocios para evaluar el rendimiento financiero, pero también se pueden utilizar en el software para medir el rendimiento en relación con objetivos específicos, como la satisfacción del usuario o como de eficientes estamos siendo en el desarrollo.
+### 3. Métricas Técnicas vs. KPIs de Negocio
 
-Estos se crean para tomar decisiones informadas: Fijamos un objetivo, lo cuantificamos en un número y así podemos hacer una progresión de los resultados. Vamos a poner un ejemplo; Nuestra empresa decide que uno de nuestros objetivos principales es dar una experiencia fluida en nuestra web, así que vamos a definir un KPI para ello. El tiempo de respuesta de la web no debe ser superior a 2 segundos y medirlo será facil ya que tenemos herramientas de instrumentación. Ahora podemos llevar un control de este objetivo y tomar decisiones correctamente, y si llega una nueva funcionalidad que afecta al rendimiento de la web, veremos este KPI y tomaremos decisiones en base a él. Quizás tengamos que optimizar el código, aumentar las instancias o incluso crear un UX que de la sensación de que la web es más rápida. Otros ejemplos podrían ser número de errores en la web o el número de registros. Este último ejemplo está mas centrado en el negocio y no en el software, pero es un ejemplo de como podemos definir KPIs para medir el rendimiento de un proceso o sistema en relación con los objetivos específicos de la organización.
+Es vital diferenciar entre salud del sistema y salud del negocio.
 
-Además tendremos un histórico de como el KPI ha ido evolucionando durante todo este tiempo. Esto nos permitirá ver que acciones han tenido más impacto en el rendimiento de la web y así hacer una mejor planificación de futuras acciones.
+#### Métricas Técnicas (System Health)
 
-Pero para poder hacer todo esto tendremos que monitorizar constantemente nuestro sistema, así que vamos a ver como podemos hacerlo.
+Miden el rendimiento de la infraestructura y el software.
 
-## Links interesantes sobre KPIs en móviles
+* **Golden Signals (SRE):** Latencia, Tráfico, Errores y Saturación.
+* **Uso:** Para los ingenieros (DevOps/SRE). Si la CPU está al 100%, escalamos máquinas.
 
-- [Monopoly GO KPIs](https://naavik.co/digest/monopoly-go-kpis/)
-- [Brawl stars](https://naavik.co/digest/brawl-stars-moba-reimagined/)
+#### KPIs (Key Performance Indicators)
 
-## Aplicación práctica
+Miden el éxito de la organización o del producto basándose en objetivos estratégicos.
 
-Nosotros para este proyecto vamos a usar CloudWatch de AWS, que tiene una integración mucho más simple y rápida. Pero si fuese un proyecto mucho más grande deberíamos utilizar un stack más completo como Elastic Stack. Vamos a ver de que se compone y como podemos utilizarlo.
+* **Ejemplos:** Tasa de conversión de carritos, Ingresos por hora, Usuarios activos diarios (DAU), Coste de adquisición (CAC).
+* **Uso:** Para Product Owners y Negocio. Si los ingresos caen, es una emergencia, aunque la CPU esté perfecta.
 
-### Elastic Stack
+---
 
-Elastic Stack está compuesto por:
+### 4. Métricas de Rendimiento de Equipo (DORA)
 
-- Agentes Beats: Son pequeños programas que recopilan métricas/logs y las envían a Logstash o Elasticsearch.
-- Logstash: Es un servidor de procesamiento de datos que recibe, transforma y envía datos a Elasticsearch. Esto es muy util cuando tenemos que transformar los datos antes de enviarlos, o si queremos duplicarlos en varios sistemas. No es necesario y suele ser un "extra", pero según las necesidades de cada proyecto puede ser muy útil.
-- Elasticsearch: Es un motor de búsqueda y análisis de datos escalable y distribuido. Es una base de datos NoSQL que nos permite almacenar y buscar datos de manera muy eficiente. Es bastante complejo de configurar y mantener pero es muy potente (es por eso que nosotros no vamos a utilizarlo en este proyecto).
-- Kibana: Es una herramienta de visualización y análisis de datos que se conecta a Elasticsearch. Es muy fácil de configurar y nos permite visualizar y analizar los datos de manera muy eficiente. Generalmente se utiliza para visualizar logs también se puede utilizar para visualizar métricas, aunque generalmente se usa Grafana para esto.
+Además de medir el software, medimos cómo de bien trabajamos nosotros. Las métricas **DORA** (DevOps Research and Assessment) son el estándar de la industria:
 
-### Sustitución de Elastic Stack por otras herramientas
+1. **Frecuencia de Despliegue (Deployment Frequency):** ¿Con qué frecuencia llevamos código a producción? (Busca: Varias veces al día).
+2. **Tiempo de Entrega (Lead Time for Changes):** Tiempo desde el "commit" hasta que corre en producción.
+3. **Tasa de Fallos en Cambios (Change Failure Rate):** ¿Qué porcentaje de despliegues rompen algo?
+4. **Tiempo Medio de Recuperación (MTTR):** Cuando algo se rompe, ¿cuánto tardamos en arreglarlo?
 
-Como hemos dicho antes, Elastic Stack es un stack muy completo y potente, pero es bastante complejo de configurar y mantener. Además puede tener un alto coste o quizás queremos utilizar otras herramientas. Veamos que posibilidades tenemos:
+> **Objetivo:** Velocidad y Estabilidad no son opuestas; los equipos de alto rendimiento tienen ambas.
 
-- Recolectores de métricas (Agentes Beats): Podemos utilizar cualquier agente que nos permita recopilar métricas y enviarlas a un sistema de monitorización. Por ejemplo, podemos utilizar [Prometheus](https://prometheus.io/) o [OpenTelemetry](https://opentelemetry.io/).
-- Transformadores de logs (Logstash): La verdad que aquí no hay muchas opciones, pero si no queremos utilizar Logstash podemos utilizar alguna herramienta que nos permita transformar los datos antes de enviarlos a Elasticsearch. Por ejemplo Filebeat tiene un módulo de transformación de datos que nos permite transformar los datos antes de enviarlos a Elasticsearch, pero no es muy flexible. Podemos utilizar [Apache NiFi](https://nifi.apache.org/) o [Apache Airflow](https://airflow.apache.org/), que son herramientas de ETL (Extract, Transform, Load) que nos permiten transformar los datos antes de enviarlos a Elasticsearch.
-- Almacenamiento de métricas (Elasticsearch): Realmente Elasticsearch es la herramienta más utilizada en estos casos. Otra opción que tenemos es utilizar herramientas de pago como [Datadog](https://www.datadoghq.com/) o [New Relic](https://newrelic.com/) (¡O incluso CloudWatch, que es lo que vamos a usar!). Pero si no queremos utilizar ninguna de estas herramientas podemos utilizar cualquier base de datos NoSQL que nos permita almacenar y buscar datos de manera eficiente, como por ejemplo [MongoDB](https://www.mongodb.com/). No recomendamos utilizar bases de datos relacionales como MySQL o PostgreSQL ya que no están diseñadas para almacenar y buscar datos de manera eficiente.
-- Visualización (Kibana): Aquí es donde más opciones tenemos, pero la más famosa y recomendada es [Grafana](https://grafana.com/). Luego hay otras herramientas para BI como [Tableau](https://www.tableau.com/) o [Power BI](https://powerbi.microsoft.com/es-es/). Aunque el problema de estas es que requieren bases de datos relacionales así que solo las usaremos si tenemos unos procesos ETL que nos permitan transformar los datos antes de enviarlos a la base de datos.
+---
 
-Otra novedad que está surgiendo poco a poco es el uso de ficheros [parquet](https://parquet.apache.org). Vienen a ser sqlite's pero para datos no relacionados. Se pueden utilizar para almacenar estos datos en bases de datos no muy grandes, o para reducir su carga. Están muy bien optimizados, y tiene pinta de que va a ser muy utilizado en el futuro.
+### 5. Arquitectura de un Sistema de Observabilidad
 
-### Nuestro Stack con CloudWatch
+Para montar esto en la nube, necesitamos un **Pipeline de Telemetría** que desacople la generación de datos de su almacenamiento.
 
-Nosotros tenemos menos tiempo y vamos a hacer algo bastante más simple. Vamos a utilizar el siguiente stack:
+1. **Instrumentación (El Origen):** El código emite datos.
+    * *Estándar actual:* **OpenTelemetry (OTel)**. Es agnóstico al proveedor. Instrumentas una vez y envías a donde quieras.
+2. **Recolección y Transporte:** Agentes que recogen los datos.
+    * *Herramientas:* OTel Collector, Fluent Bit, Vector. Actúan como intermediarios para no saturar la app.
+3. **Almacenamiento y Análisis (Backend):**
+    * *Métricas:* Prometheus, CloudWatch Metrics.
+    * *Logs:* Loki (barato, indexa solo etiquetas), Elasticsearch (potente búsqueda texto completo), CloudWatch Logs.
+    * *Trazas:* Jaeger, Tempo, X-Ray.
+4. **Visualización:**
+    * **Grafana:** El estándar de facto para dashboards unificados.
 
-- Recolectores de métricas: Aquí teneis múltiples opciones:
-  - Podéis utilizar [CloudWatch Agent](https://docs.aws.amazon.com/es_es/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html) que es un agente que recopila métricas de los servicios de AWS y las envía a CloudWatch.
-  - Usar Beats para recopilar métricas de los servicios de AWS. Por ejemplo, podemos utilizar [Metricbeat](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-module-aws.html) para recopilar métricas de los servicios de AWS.
-  - Otra opción similar a beats es usar [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) que es un agente de recopilación de métricas. Técnicamente está preparado para influxDB, pero se puede utilizar para cualquier otro sistema. 
-  - La opción final es usar OpenTelemetry, que parece que va a ser el estandard de la industria. La mala noticia es que no está del todo pulido y no es muy fácil de configurar. Más información [aquí](https://aws.amazon.com/blogs/opensource/collecting-aws-metrics-using-opentelemetry/).
-- Transformadores de logs: No vamos a utilizar ninguno.
-- Almacenamiento de métricas: Como ya hemos dicho, vamos a utilizar CloudWatch.
-- Visualización: Aquí teneis dos opciones.
-  - O bien utilizar CloudWatch para visualizar las métricas.
-  - O bien utilizar Grafana. Para esto tenemos que utilizar un plugin de Grafana que se llama [CloudWatch](https://grafana.com/docs/grafana/latest/datasources/aws-cloudwatch/). Este plugin nos permite visualizar las métricas de CloudWatch en Grafana. Podeis utilizar [Grafana Cloud](https://grafana.com/products/cloud/) que es un servicio de Grafana en la nube, o bien instalar Grafana en vuestro propio servidor.
+---
 
-Obviamente, sois libres de utilizar vuestro propio stack! Pero acordaos de preguntar antes :) 
+### 6. Estrategia de Negocio: Correlación de Datos
+
+El verdadero valor surge al cruzar datos.
+
+* **Ejemplo de Dashboard "North Star":**
+  * Un panel muestra: **Ingresos en tiempo real** (Métrica de Negocio).
+  * Otro panel muestra: **Latencia del Checkout** (Métrica Técnica).
+  * *Insight:* ¿La caída de ingresos de las 10:00 AM coincide con el despliegue de la versión 2.1?.
+
+**Cómo implementarlo:**
+Usando **OpenTelemetry**, añadimos "Atributos personalizados" a las trazas o métricas:
+
+```python
+# Ejemplo conceptual
+span.set_attribute("user.type", "premium")
+span.set_attribute("cart.value", 150.00)
+```
+
+Esto permite filtrar en Grafana: *"Muéstrame los errores 500, pero solo de usuarios que tenían más de 100€ en el carrito"*.
+
+---
+
+### 7. Ecosistema de Herramientas: Clasificación
+
+Para construir un sistema robusto, debemos seleccionar las piezas adecuadas para cada etapa del ciclo de vida del dato. A continuación, las herramientas más destacadas en la industria actual.
+
+#### A. Instrumentación (Generación de datos)
+
+* **OpenTelemetry (OTel) SDKs:** El estándar actual. Permite instrumentar la aplicación una sola vez y enviar los datos a cualquier backend. Soporta trazas, métricas y logs de forma unificada.
+* **Prometheus Client Libraries:** Específicas para métricas. Exponen un endpoint `/metrics` que es "raspado" (scraped) periódicamente.
+* **Telegraf:** Un agente basado en plugins muy versátil para recopilar métricas de bases de datos, sistemas y sensores IoT.
+* **Elastic Beats:** Agentes ligeros (Filebeat, Metricbeat) para enviar datos específicamente al ecosistema Elastic.
+
+---
+
+#### B. Recolección y Transporte (La Tubería)
+
+Estas herramientas actúan como intermediarios, procesando y enviando datos para no sobrecargar la aplicación principal.
+
+* **OpenTelemetry Collector:** Un proxy neutral que recibe, procesa (filtra/transforma) y exporta telemetría. Es la pieza clave para desacoplar el origen del destino.
+* **Fluent Bit:** Procesador de logs extremadamente ligero y rápido (escrito en C). Es el estándar para entornos de contenedores y Kubernetes debido a su bajo consumo de memoria.
+* **Vector:** Herramienta de alto rendimiento escrita en Rust. Destaca por su seguridad de memoria y eficiencia en el manejo de logs y métricas.
+* **Apache Kafka:** Utilizado en arquitecturas masivas como búfer intermedio para desacoplar la recolección del almacenamiento y evitar pérdida de datos en picos de tráfico.
+
+---
+
+#### C. Almacenamiento y Análisis (El Backend)
+
+* **Métricas (Series Temporales):**
+  * **Prometheus:** El estándar de facto para métricas en Kubernetes.
+  * **Mimir / Thanos:** Soluciones para escalar Prometheus a largo plazo y alta disponibilidad.
+  * **TimescaleDB / InfluxDB:** Bases de datos especializadas en series temporales de alto rendimiento.
+* **Logs:**
+  * **Grafana Loki:** Indexa solo metadatos (etiquetas), lo que lo hace muy barato y eficiente (similar a Prometheus pero para logs).
+  * **Elasticsearch / OpenSearch:** Motores de búsqueda de texto completo. Ideales para búsquedas complejas y análisis forense profundo.
+* **Trazas:**
+  * **Jaeger:** Sistema de trazado distribuido clásico.
+  * **Grafana Tempo:** Backend de trazas de alta escala y bajo coste, diseñado para no necesitar muestreo agresivo.
+
+---
+
+#### D. Visualización (El Panel de Control)
+
+* **Grafana:** La plataforma líder de código abierto. Permite visualizar datos de múltiples fuentes (Prometheus, Loki, Elastic, SQL) en un solo dashboard unificado.
+* **Kibana:** La interfaz nativa de Elastic Stack. Potente para la exploración profunda de logs y visualización de datos de seguridad.
+
+---
+
+### 8. Recomendación de Stacks (Arquitecturas)
+
+Elegir el stack correcto depende de la madurez del equipo, el presupuesto y la escala. Aquí presento tres niveles de complejidad.
+
+---
+
+### Nivel 0: El Stack Nativo (AWS CloudWatch)
+
+Si ya estamos en AWS y buscamos la **mínima fricción operativa**, la respuesta es usar las herramientas nativas de la plataforma.
+
+* **Filosofía:** Integración inmediata. No hay que instalar servidores de bases de datos ni gestionar clústeres; es un servicio totalmente gestionado
+* **Ideal para:** Proyectos con tiempos ajustados, equipos pequeños o arquitecturas 100% Serverless donde no queremos mantener infraestructura de monitoreo
+
+---
+
+### Arquitectura del Stack CloudWatch
+
+* **Instrumentación (Recolectores):**
+  * **Automática:** Servicios como EC2, Lambda o RDS envían métricas básicas (CPU, Disco) automáticamente.
+  * **CloudWatch Agent:** Se instala en las instancias para enviar métricas personalizadas (ej. uso de memoria RAM) y logs de aplicación
+* **Almacenamiento:** CloudWatch Logs y Metrics.
+* **Visualización:**
+  * **Nativa:** CloudWatch Dashboards (simple y directo).
+  * **Híbrida:** Grafana conectado a la API de CloudWatch (para visualizaciones más potentes)
+
+#### Nivel 1: El Stack "Starter Cloud-Native" (Simple y Eficiente)
+
+Ideal para empezar en Kubernetes o sistemas medianos donde el coste es prioridad.
+
+* **Composición:**
+  * *Instrumentación:* Prometheus Libs + Logs a `stdout`.
+  * *Recolección:* Prometheus (Scraping) + Promtail (Logs).
+  * *Almacenamiento:* Prometheus + Loki.
+  * *Visualización:* Grafana.
+* **Pros:** Muy fácil de desplegar. Loki es muy barato al no indexar el texto completo. Integración nativa perfecta en Grafana.
+* **Contras:** Búsquedas de texto libre en logs son más lentas que en Elastic. Retención de datos limitada si no se configura almacenamiento en objetos (S3).
+
+---
+
+#### Nivel 2: El Stack "Modern Enterprise" (Estándar OTel)
+
+Para empresas que buscan evitar el bloqueo de proveedores y necesitan trazabilidad completa.
+
+* **Composición:**
+  * *Instrumentación:* **OpenTelemetry SDKs**.
+  * *Recolección:* **OTel Collector** (Gateway central).
+  * *Almacenamiento:* Mimir (Métricas) + Loki (Logs) + Tempo (Trazas) (Stack LGTM).
+  * *Visualización:* Grafana.
+* **Pros:** **Agnóstico al proveedor**: Si cambias de backend, tu código no se toca. Visibilidad total (Logs, Métricas y Trazas correlacionados).
+* **Contras:** Curva de aprendizaje del OTel Collector. Gestionar Mimir/Tempo requiere conocimientos de operaciones.
+
+---
+
+#### Nivel 3: El Stack "Log-Heavy / Compliance" (Robusto)
+
+Para organizaciones con requisitos masivos de logs, auditoría o seguridad (SIEM).
+
+* **Composición:**
+  * *Instrumentación:* Beats / Fluentd.
+  * *Transporte:* Fluent Bit -> **Kafka** -> Logstash.
+  * *Almacenamiento:* **Elasticsearch / OpenSearch**.
+  * *Visualización:* Kibana.
+* **Pros:** **Kafka** garantiza cero pérdida de datos ante picos. Elasticsearch permite búsquedas de texto completo instantáneas y complejas, vital para seguridad.
+* **Contras:** **Costoso y pesado**. Elasticsearch consume mucha RAM/CPU. Operar un clúster de Kafka añade complejidad significativa.
+
+---
+
+### Resumen de Selección
+
+| Necesidad                  | Stack Recomendado               | Por qué                                                   |
+| :------------------------- | :------------------------------ | :-------------------------------------------------------- |
+| **Solución Básica**        | Cloudwatch                      | Integración nativa, sin mantenimiento.                    |
+| **Inicio Rápido / K8s**    | Prometheus + Loki + Grafana     | Bajo coste, despliegue sencillo, estándar en K8s.         |
+| **Flexibilidad Futura**    | OpenTelemetry + Grafana Stack   | Estandarización, evita vendor lock-in, correlación total. |
+| **Busqueda Logs Compleja** | ELK Stack (con Kafka)           | Potencia de búsqueda de texto, robustez ante fallos.      |
+| **SaaS (Sin Ops)**         | Datadog / New Relic / Dynatrace | "Funciona solo", pero alto coste a escala.                |
+
+<!-- 
+Speaker Notes:
+Para cerrar: No intentéis matar moscas a cañonazos. Si estáis empezando, el stack Prometheus/Loki es suficiente para el 90% de los casos. Si necesitáis escalar o tenéis requisitos de negocio complejos, pasad a OpenTelemetry. Dejad el stack ELK completo o Kafka solo para cuando tengáis un volumen de datos que realmente lo justifique.
+-->
