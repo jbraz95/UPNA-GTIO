@@ -6,7 +6,7 @@
 
 * 28 [Introducción y Organización de la Asignatura](Introduccion.md) --- [*diapositivas*](pdf/Introduccion.pdf)
 * 28 [Modelos de Dirección y Roles en las Organizaciones](teoria/Organizaciones.md) --- [*diapositivas*](pdf/Organizaciones.pdf)
-* 28 [The fundamental forces of scale](https://longform.asmartbear.com/scale/)
+* 28 [The fundamental forces of scale](https://longform.asmartbear.com/scale/) --- [*diapositivas*](pdf/La_Física_del_Crecimiento.pdf)
 * 28 __Explicación [RFI I](RFI/RFI-I.md)__.
 
 ## Febrero
